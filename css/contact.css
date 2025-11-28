@@ -1,0 +1,187 @@
+/* Hero Section */
+.hero-img {
+    background-image: url(../images/contact-us.webp);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+
+.hero-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.575));
+}
+
+h1,
+.hero-section p,
+.hero-btn .btn a {
+    color: var(--light-color);
+    letter-spacing: 0.03em;
+    font-size: 20px;
+    width: 75%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.hero-btn .btn {
+    background-color: var(--primary-Button-bg);
+    border: 1px solid var(--light-color);
+    padding: 20px 60px;
+    transition: background-color 0.3s ease;
+}
+
+.hero-btn .btn:hover,
+.contact-btn .btn:hover {
+    background-color: rgba(153, 155, 108, 0.842);
+}
+
+.hero-btn .btn a {
+    text-transform: uppercase;
+}
+
+
+/* Contact Section */
+.contact-bg {
+    background-color: var(--second-bg-color);
+    position: relative;
+}
+
+.contact-bg::before {
+    content: "";
+    width: 100%;
+    height: 50px;
+    background-color: var(--second-bg-color);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+.contact-us p span,
+.contact-us p {
+    font-weight: 700;
+    font-size: 23px;
+    color: var(--text-second-color);
+}
+
+.contact-us p {
+    font-weight: var(--heading-font-weight);
+}
+
+.contact-us .p-color {
+    font-weight: var(--heading-font-weight);
+    color: #a2a57b;
+    border-bottom: 1px solid #a2a57b;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 6px 10px;
+    border-bottom: 1px solid #312f2f5d;
+    transition: border-bottom 0.3s ease;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover,
+.contact-form select:hover,
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-bottom: 1px solid var(--text-second-color);
+}
+
+.name-input {
+    width: calc((100% - 0.5rem) /2);
+}
+
+.textarea textarea {
+    height: 100px;
+}
+
+.recommend select {
+    cursor: pointer;
+    position: relative;
+    color: gray;
+}
+
+.contact-btn .btn {
+    background-color: var(--primary-Button-bg);
+    color: var(--light-color);
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.contact-form label,
+.contact-form .name p {
+    color: var(--text-second-color);
+    font-weight: var(--heading-font-weight);
+    font-size: var(--header-font-size);
+}
+
+.contact-form label span,
+.contact-form .name p span {
+    color: #312f2fb4;
+}
+
+.footer-section {
+    border-top: 1px solid #c4c4bb;
+}
+
+
+
+@media(max-width: 991px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .hero-btn .btn a,
+    .footer-links ul li a,
+    p {
+        font-size: var(--header-font-size);
+    }
+
+}
+
+
+@media (max-width: 799px) {
+    .hero-btn .btn {
+        padding: 15px 40px;
+    }
+
+    .hero-section {
+        gap: 20px !important;
+    }
+
+    .contact-bg .footer-icons {
+        margin-top: 20px !important;
+    }
+
+}
+
+
+@media(max-width: 320px) {
+
+    .hero-btn .btn a,
+    .footer-links ul li a,
+    p {
+        font-size: var(--second-font-size);
+    }
+
+    .hero-section {
+        gap: 10px !important;
+    }
+
+    .hero-btn .btn {
+        padding: 10px 20px;
+    }
+
+    .contact-us p span,
+    .contact-us p {
+        font-size: 18px;
+    }
+}

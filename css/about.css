@@ -1,0 +1,286 @@
+/* Hero Section */
+.hero-img {
+    background-image: url(../images/About-img.webp);
+    background-size: cover;
+    background-position: bottom;
+    height: 130vh;
+}
+
+.hero-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.3));
+}
+
+h1,
+.hero-section p {
+    color: var(--light-color);
+    letter-spacing: 0.03em;
+    font-size: 22px;
+}
+
+h1,
+.story-content h4 {
+    font-size: 70px;
+}
+
+
+/* Info Section */
+.info-section {
+    background-image: url(../images/about-bg.webp);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+h2,
+h4,
+p,
+.services-btn .btn a {
+    color: var(--text-second-color);
+    letter-spacing: 0.03em;
+}
+
+
+/* Services Section */
+.services-section {
+    background-color: var(--second-bg-color);
+    padding: var(--section-padding);
+}
+
+.services-img {
+    height: 500px;
+}
+
+.services-img img,
+.foot-img img,
+.team-img img,
+.owner-img img,
+.story-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.services-btn .btn {
+    background-color: var(--primary-Button-bg);
+    padding: 10px 20px;
+}
+
+.services-btn .btn:hover {
+    background-color: rgba(153, 155, 108, 0.7);
+}
+
+.services-btn .btn a {
+    color: var(--light-color);
+    text-transform: uppercase;
+}
+
+
+/* Team Section */
+.team-section {
+    padding: 80px 50px;
+}
+
+.team-img-box {
+    width: calc((100% - 9rem) /4);
+}
+
+.team-img {
+    width: 100%;
+    height: 400px;
+}
+
+.team-section h2 {
+    font-size: 50px;
+}
+
+
+/* Owners */
+.owners {
+    min-height: 100vh;
+    background-color: var(--second-bg-color);
+}
+
+.owner-img {
+    height: 90vh;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.owner-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+/* Our Story */
+.our-story {
+    background-color: var(--primary-bg-color);
+    padding: 40px 0 80px 0;
+}
+
+.story-container {
+    gap: 100px;
+}
+
+.story-content,
+.story-img {
+    width: 40%;
+}
+
+.story-img {
+    height: 60vh;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--primary-bg-color);
+}
+
+.footer-bg {
+    background-color: var(--second-bg-color);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+
+
+@media(max-width: 1099px) {
+    .team-img-box {
+        width: calc((100% - 6rem) /3);
+    }
+
+    .team-section {
+        padding: 40px 40px;
+    }
+}
+
+@media(max-width: 991px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p,
+    .services-btn .btn a {
+        font-size: var(--header-font-size);
+    }
+
+    .owners {
+        min-height: 90vh;
+    }
+
+    .owner-img {
+        height: 80vh;
+    }
+
+    .our-story {
+        padding: 20px 30px 50px 30px !important;
+    }
+
+    .story-container {
+        flex-direction: column !important;
+        gap: 50px;
+    }
+
+    .story-content,
+    .story-img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 799px) {
+    h1 {
+        font-size: 27px;
+    }
+
+    .info-section div {
+        width: 80% !important;
+    }
+
+    .info-section h2 {
+        margin-bottom: 20px !important;
+    }
+
+    .services-img {
+        height: 400px;
+    }
+
+    .owners {
+        min-height: 60vh;
+    }
+
+    .owner-img {
+        height: 50vh;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .team-img-box {
+        width: calc((100% - 3rem) /2);
+    }
+
+    .story-img {
+        height: 50vh;
+    }
+
+    .innovasia-content {
+        flex-direction: column-reverse !important;
+        align-items: start !important;
+    }
+
+}
+
+@media(max-width: 575px) {
+    .team-img-box {
+        width: 100%;
+    }
+
+    .team-img {
+        height: 500px;
+    }
+
+    .story-img {
+        height: 35vh;
+    }
+
+    .owners {
+        min-height: 50vh;
+    }
+
+    .owner-img {
+        height: 40vh;
+    }
+}
+
+@media(max-width: 320px) {
+
+    p,
+    .services-btn .btn a {
+        font-size: var(--second-font-size);
+    }
+
+    .services-img {
+        height: 300px;
+    }
+
+    .team-section {
+        padding: 20px 30px;
+    }
+
+    .team-img {
+        height: 260px;
+    }
+
+    .team-imgs {
+        margin-top: 20px !important;
+        gap: 20px !important;
+    }
+
+    .story-img {
+        height: 20vh;
+    }
+
+}

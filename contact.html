@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <link rel="shortcut icon"
+        href="https://images.squarespace-cdn.com/content/v1/671a7f8d0fc62461a0b8de2c/4930092c-f40a-4892-b966-fe2836e1314f/favicon.ico?format=100w"
+        type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact-Design Box</title>
+</head>
+
+<body>
+    <header class="nav-section">
+        <div class="d-flex justify-content-between align-items-center">
+
+            <div class="logo-img">
+                <img src="./images/DB-Logo-White.webp" alt="Logo">
+            </div>
+
+            <nav>
+                <ul class="d-flex align-items-center gap-3 mb-0">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="brands.html">Brands</a></li>
+                    <li class="active"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="list-icon">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+
+            <div class="list-toggle d-flex flex-column align-items-center gap-5 pt-5">
+                <div class="list-toggle-icon align-self-end pe-5"><i class="fa-solid fa-xmark"></i></div>
+                <ul class="d-flex flex-column gap-5">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="brands.html">Brands</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-img">
+            <div class="hero-bg w-100 h-100">
+                <div
+                    class="hero-section h-100 d-flex flex-column align-items-center justify-content-center gap-5 text-center">
+                    <h1>Let’s work together</h1>
+                    <p>Ready to elevate your project? Fill out the form or schedule an appointment to visit our showroom
+                        for personalized assistance! We can’t wait to help you find the perfect solution.
+                    </p>
+                    <div class="hero-btn">
+                        <button class="btn rounded-0"><a href="#">Book an Appointment</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-bg pt-4 pb-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="contact-us">
+                            <p><span>Phone:</span> (506) 4704 3189</p>
+                            <p><span>Whatsapp:</span> <span class="p-color">(506) 60246091</span></p>
+                            <p><span>Email:</span> info@designbox.net</p>
+                            <p><span>Location:</span> Ofibodegas Escazú, Bodega #8.
+                                San José, Costa Rica
+                            </p>
+                            <div class="footer-icons d-flex gap-3 align-items-center mt-5">
+                                <div class="footer-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </div>
+                                <div class="footer-icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 pt-5 pt-lg-0">
+                        <form class="contact-form d-flex flex-column gap-4">
+                            <div class="name">
+                                <p class="mb-2">Name <span>(required)</span></p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <div class="name-input d-flex flex-column gap-1">
+                                        <label for="f-name">First Name</label>
+                                        <input type="text" id="f-name" required>
+                                    </div>
+                                    <div class="name-input d-flex flex-column gap-1">
+                                        <label for="l-name">Last Name</label>
+                                        <input type="text" id="l-name" required>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="email d-flex flex-column gap-2">
+                                <label for="email">Email <span>(required)</span></label>
+                                <input type="email" id="email" required>
+                            </div>
+
+                            <div class="phone-input d-flex flex-column gap-2">
+                                <label for="phone">Phone</label>
+                                <input type="text" id="phone">
+                            </div>
+
+                            <div class="recommend d-flex flex-column gap-2">
+                                <label for="recommend">How did you hear about us?</label>
+
+                                <select id="options-list">
+                                    <option value="" disabled selected hidden>Select an Option</option>
+                                    <option value="social">Social Media</option>
+                                    <option value="reference">Reference</option>
+                                    <option value="google">Google</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+
+                            <div class="textarea d-flex flex-column gap-2">
+                                <label for="message">Message <span>(required)</span></label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+
+                            <div class="contact-btn">
+                                <button class="btn rounded-0">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rounded-0">
+        <div class="container">
+            <div class="footer-section pt-5 d-flex flex-column align-items-center gap-5">
+                <div class="footer-logo mb-3">
+                    <img src="./images/DB-Logo-Forest+Green.webp" alt="logo">
+                </div>
+
+                <div class="footer-imgs d-flex">
+                    <div class="foot-img">
+                        <img src="./images/design-1.webp" alt="Design">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/design-2.webp" alt="Design">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/design-3.webp" alt="Design">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/design-4.webp" alt="Design">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/foot-img.webp" alt="Design">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/logo-brand.webp" alt="Logo">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/DesignBox-team.webp" alt="Team">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/design-5.webp" alt="Design">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/design-6.webp" alt="Design">
+                    </div>
+                    <div class="foot-img">
+                        <img src="./images/design-7.webp" alt="Design">
+                    </div>
+                </div>
+
+                <div class="footer-content w-100 d-flex gap-5">
+                    <div class="contact-section d-flex gap-5">
+                        <div class="contact-info">
+                            <h4><em>Design Box</em></h4>
+                            <p class="pt-4">(506) 4704 3189</p>
+                            <p>info@designbox.net</p>
+                            <p>Ofibodegas Escazú Bodega #8
+                                <br>
+                                San José, Costa Rica
+                            </p>
+                        </div>
+
+                        <form class="footer-form d-flex flex-column align-items-center text-center">
+                            <h2>Stay in touch with us</h2>
+                            <p class="pt-2">Let's stay connected and learn more about new collections, discounts,
+                                events, and
+                                more
+                            </p>
+                            <div class="email-input d-flex align-items-center gap-3 pt-3">
+                                <div class="footer-input">
+                                    <input type="email" placeholder="Email Address" required>
+                                </div>
+                                <div class="footer-btn">
+                                    <button class="btn rounded-0">Sign Up</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4><em>Explore</em></h4>
+                        <ul class="ps-0 pt-4 d-flex flex-column gap-3">
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="projects.html">projects</a></li>
+                            <li><a href="brands.html">brands</a></li>
+                        </ul>
+                        <div class="footer-icons d-flex gap-3 align-items-center mt-5">
+                            <div class="footer-icon d-flex align-items-center justify-content-center"><i
+                                    class="fa-brands fa-instagram"></i></div>
+                            <div class="footer-icon d-flex align-items-center justify-content-center"><i
+                                    class="fa-brands fa-linkedin-in"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="./js/nav.js"></script>
+</body>
+
+</html>

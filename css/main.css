@@ -1,0 +1,360 @@
+/* Hero Section */
+.hero-section {
+    height: 110vh;
+    background-image: url(../images/hero-img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-bg {
+    background: linear-gradient(rgba(0, 0, 0, 0.3));
+    padding-bottom: 100px;
+    height: 100%;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+.hero-content h1,
+.hero-content p,
+.hero-content .hero-btn .btn {
+    color: var(--light-color);
+    padding: 12px 0;
+}
+
+.hero-content .hero-btn {
+    width: 45%;
+    text-align: center;
+    padding: 15px 0;
+    background-color: var(--primary-Button-bg);
+    border: 1px solid var(--light-color);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .hero-btn .btn {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.hero-content .hero-btn:hover {
+    background-color: rgba(153, 155, 108, 0.7);
+}
+
+
+/* Info Section */
+.info-bg {
+    background-image: url(../images/about-bg.webp);
+    background-size: cover;
+}
+
+.info-section {
+    padding: var(--section-padding);
+}
+
+.info-content h2,
+.info-content p,
+.info-content p a {
+    color: var(--light-color);
+    letter-spacing: 0.03em;
+}
+
+.info-content h2,
+.about-content h2 {
+    letter-spacing: 0.02em;
+}
+
+.info-content p a {
+    border-bottom: 1px solid var(--light-color);
+}
+
+
+/* Services Section */
+.services-section {
+    background-color: var(--light-color);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: var(--section-padding);
+    overflow: hidden;
+}
+
+.services-section h2,
+.brands-section h2,
+.contact-info h4,
+.contact-info p {
+    color: var(--text-second-color);
+}
+
+.services-btn,
+.brands-btn {
+    width: fit-content;
+    background-color: var(--second-Button-bg);
+    padding: 10px;
+    transition: background-color 0.2s ease;
+}
+
+.services-btn:hover,
+.brands-btn:hover {
+    background-color: rgba(49, 47, 47, 0.826);
+}
+
+.services-btn .btn a,
+.brands-btn .btn a {
+    color: var(--light-color);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+/* Swiper */
+
+.swiper {
+    width: 100vw;
+    padding: 0 60px;
+}
+
+.swiper-slide {
+    background-color: var(--second-bg-color);
+    padding: 15px;
+}
+
+.swiper-slide h4 {
+    color: var(--text-second-color);
+    font-size: 22px;
+}
+
+.slide-img {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    background-color: #999c699e;
+    color: #fff;
+    padding: 30px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-button-prev {
+    left: 50px !important;
+}
+
+.swiper-button-next {
+    right: 50px !important;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background-color: var(--primary-Button-bg);
+}
+
+.swiper-button-prev svg,
+.swiper-button-next svg {
+    display: none !important;
+}
+
+.swiper-button-prev::before {
+    content: '←';
+}
+
+.swiper-button-next::before {
+    content: '→';
+}
+
+.swiper-button-prev::before,
+.swiper-button-next::before {
+    font-size: 40px;
+    top: -5%;
+    position: absolute;
+}
+
+
+
+
+
+/* About Section */
+.about-img,
+.about-content {
+    width: 50%;
+}
+
+.about-section .about-logo {
+    width: 270.24px;
+    height: 270.24px;
+}
+
+.about-img img,
+.about-logo img,
+.brand-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-logo img {
+    object-fit: contain;
+}
+
+.about-content {
+    background-color: var(--primary-bg-color);
+    padding: 40px 50px;
+}
+
+.about-content h2,
+.about-content p,
+.about-content p a {
+    letter-spacing: 0.03em;
+    color: var(--text-second-color);
+}
+
+.about-content p a {
+    border-bottom: 1px solid var(--text-second-color);
+    text-transform: uppercase;
+}
+
+
+/* Brands Section */
+.brands-section {
+    padding: var(--section-padding);
+}
+
+.brands-section h2 {
+    font-size: 40px;
+}
+
+.brand-img {
+    height: 100px;
+}
+
+
+@media(max-width: 991px) {
+
+    .hero-content p,
+    .hero-content .hero-btn .btn,
+    .about-content p,
+    .about-content p a,
+    .contact-info p {
+        font-size: var(--header-font-size);
+    }
+
+    .about-content {
+        gap: 20px !important;
+    }
+
+    .hero-content .hero-btn {
+        width: 70%;
+        padding: 10px 0;
+    }
+
+    .info-section,
+    .services-section,
+    .brands-section {
+        padding: var(--responsive-padding);
+    }
+
+}
+
+
+@media (max-width: 799px) {
+    .hero-content {
+        width: 80%;
+    }
+
+    .info-content p {
+        padding-top: 10px !important;
+    }
+
+    .info-content p,
+    .info-content p a,
+    .services-btn .btn {
+        font-size: var(--header-font-size);
+    }
+
+    .services-btn {
+        padding: 10px 0;
+    }
+
+    .about-section {
+        flex-direction: column !important;
+    }
+
+    .about-img,
+    .about-content {
+        width: 100%;
+    }
+
+    .about-content {
+        padding: 20px 50px;
+    }
+
+    .about-content p,
+    .about-content p a {
+        font-size: 16px;
+    }
+
+    .slide-img {
+        height: 400px;
+    }
+
+    .swiper-button-prev::before,
+    .swiper-button-next::before {
+        font-size: 30px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        padding: 20px;
+    }
+
+    .swiper-button-prev {
+        left: 35px !important;
+    }
+
+    .swiper-button-next {
+        right: 35px !important;
+    }
+}
+
+@media(max-width: 380px) {
+    .slide-img {
+        height: 300px;
+    }
+}
+
+
+@media(max-width: 320px) {
+    .hero-content .hero-btn {
+        padding: 0;
+    }
+
+    .info-content p,
+    .info-content p a,
+    .contact-info p,
+    .about-content p,
+    .about-content p a {
+        font-size: var(--second-font-size);
+    }
+
+    .about-section .about-logo {
+        width: 200px;
+        height: 200px;
+    }
+
+    .services-section h2 {
+        padding: 10px;
+    }
+
+    .services-btn {
+        width: 90%;
+    }
+
+}
