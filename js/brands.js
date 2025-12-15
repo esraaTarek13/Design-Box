@@ -319,10 +319,10 @@ renderDecorBrand()
 // Lighting Section
 const lightingBrands = [
     {
-        img: "https://esraatarek13.github.io/Design-Box//images/brand-21.webp",
+        img: "https://esraatarek13.github.io/Design-Box/images/brand-21.webp",
     },
     {
-        img: "https://esraatarek13.github.io/Design-Box//images/brand-31.webp",
+        img: "https://esraatarek13.github.io/Design-Box/images/brand-31.webp",
     },
 ]
 
