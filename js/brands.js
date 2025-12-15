@@ -1,10 +1,10 @@
 // Fabrics Section
 const fabricsBrands = [
     {
-        img: "../images/brand-7.webp",
+        img: "/images/brand-7.webp",
     },
     {
-        img: "../images/brand-8.webp",
+        img: "/images/brand-8.webp",
     },
     {
         img: "../images/brand-9.webp",
