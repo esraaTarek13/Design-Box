@@ -1,58 +1,58 @@
 // Fabrics Section
 const fabricsBrands = [
     {
-        img: "https://github.com/esraaTarek13/Design-Box.git/images/brand-7.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-7.webp",
     },
     {
-        img: "/images/brand-8.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-8.webp",
     },
     {
-        img: "../images/brand-9.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-9.webp",
     },
     {
-        img: "../images/brand-10.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-10.webp",
     },
     {
-        img: "../images/brand-12.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-12.webp",
     },
     {
-        img: "../images/brand-13.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-13.webp",
     },
     {
-        img: "../images/brand-14.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-14.webp",
     },
     {
-        img: "../images/brand-15.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-15.webp",
     },
     {
-        img: "../images/brand-25.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-25.webp",
     },
     {
-        img: "../images/brand-16.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-16.webp",
     },
     {
-        img: "../images/brand-17.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-17.webp",
     },
     {
-        img: "../images/brand-18.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-18.webp",
     },
     {
-        img: "../images/brand-19.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-19.webp",
     },
     {
-        img: "../images/brand-26.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-26.webp",
     },
     {
-        img: "../images/brand-27.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-27.webp",
     },
     {
-        img: "../images/brand-28.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-28.webp",
     },
     {
-        img: "../images/brand-29.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-29.webp",
     },
     {
-        img: "../images/brand-30.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-30.webp",
     },
 ]
 
@@ -75,67 +75,67 @@ renderFabricsBrands()
 // Furniture Section
 const furnitureBrands = [
     {
-        img: "../images/brand-43.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-43.webp",
     },
     {
-        img: "../images/brand-22.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-22.webp",
     },
     {
-        img: "../images/brand-44.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-44.webp",
     },
     {
-        img: "../images/brand-45.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-45.webp",
     },
     {
-        img: "../images/brand-24.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-24.webp",
     },
     {
-        img: "../images/brand-46.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-46.webp",
     },
     {
-        img: "../images/brand-47.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-47.webp",
     },
     {
-        img: "../images/brand-48.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-48.webp",
     },
     {
-        img: "../images/brand-49.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-49.webp",
     },
     {
-        img: "../images/brand-50.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-50.webp",
     },
     {
-        img: "../images/brand-51.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-51.webp",
     },
     {
-        img: "../images/brand-52.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-52.webp",
     },
     {
-        img: "../images/brand-53.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-53.webp",
     },
     {
-        img: "../images/brand-54.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-54.webp",
     },
     {
-        img: "../images/brand-55.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-55.webp",
     },
     {
-        img: "../images/brand-5.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-5.webp",
     },
     {
-        img: "../images/brand-56.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-56.webp",
     },
     {
-        img: "../images/brand-57.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-57.webp",
     },
     {
-        img: "../images/brand-58.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-58.webp",
     },
     {
-        img: "../images/brand-59.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-59.webp",
     },
     {
-        img: "../images/brand-60.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-60.webp",
     },
 ]
 
@@ -158,22 +158,22 @@ renderFurnitureBrand()
 // Acoustics Section
 const acousticsBrands = [
     {
-        img: "../images/brand-1.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-1.webp",
     },
     {
-        img: "../images/brand-2.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-2.webp",
     },
     {
-        img: "../images/brand-33.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-33.webp",
     },
     {
-        img: "../images/brand-40.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-40.webp",
     },
     {
-        img: "../images/brand-41.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-41.webp",
     },
     {
-        img: "../images/brand-42.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-42.webp",
     },
 ]
 
@@ -196,31 +196,31 @@ renderAcousticsBrand()
 // Flooring Solutions Section
 const flooringSolutionsBrands = [
     {
-        img: "../images/brand-14.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-14.webp",
     },
     {
-        img: "../images/brand-35.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-35.webp",
     },
     {
-        img: "../images/brand-36.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-36.webp",
     },
     {
-        img: "../images/brand-37.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-37.webp",
     },
     {
-        img: "../images/brand-38.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-38.webp",
     },
     {
-        img: "../images/brand-20.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-20.webp",
     },
     {
-        img: "../images/brand-39.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-39.webp",
     },
     {
-        img: "../images/brand-30.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-30.webp",
     },
     {
-        img: "../images/brand-25.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-25.webp",
     },
 ]
 
@@ -243,28 +243,28 @@ renderFlooringSolutionsBrand()
 // Wallcovering Section
 const wallcoveringBrands = [
     {
-        img: "../images/brand-32.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-32.webp",
     },
     {
-        img: "../images/brand-8.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-8.webp",
     },
     {
-        img: "../images/brand-9.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-9.webp",
     },
     {
-        img: "../images/brand-33.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-33.webp",
     },
     {
-        img: "../images/brand-34.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-34.webp",
     },
     {
-        img: "../images/brand-17.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-17.webp",
     },
     {
-        img: "../images/brand-19.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-19.webp",
     },
     {
-        img: "../images/brand-25.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-25.webp",
     },
 ]
 
@@ -287,16 +287,16 @@ renderWallcoveringBrand()
 // Decor Section
 const decorBrands = [
     {
-        img: "../images/brand-5.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-5.webp",
     },
     {
-        img: "../images/brand-3.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-3.webp",
     },
     {
-        img: "../images/brand-6.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-6.webp",
     },
     {
-        img: "../images/brand-4.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-4.webp",
     },
 ]
 
@@ -319,10 +319,10 @@ renderDecorBrand()
 // Lighting Section
 const lightingBrands = [
     {
-        img: "../images/brand-21.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-21.webp",
     },
     {
-        img: "../images/brand-31.webp",
+        img: "https://esraatarek13.github.io/Design-Box//images/brand-31.webp",
     },
 ]
 
