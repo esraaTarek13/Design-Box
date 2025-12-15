@@ -1,7 +1,7 @@
 // Fabrics Section
 const fabricsBrands = [
     {
-        img: "/images/brand-7.webp",
+        img: "https://github.com/esraaTarek13/Design-Box.git/images/brand-7.webp",
     },
     {
         img: "/images/brand-8.webp",
